@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  width: 100vw;
+  width: 100%;
   height: 100vh;
 `;
 
@@ -10,6 +10,21 @@ export const Wrapper = styled.div`
   flex-direction: column;
   align-items: center;
   padding: 10px;
+
+  input {
+    width: 350px;
+    height: 40px;
+    border: 0;
+    padding: 0 10px;
+  }
+
+  button {
+    width: 90px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 5px;
+    border: 0;
+  }
 
   ul {
     list-style: none;
@@ -33,9 +48,4 @@ export const Wrapper = styled.div`
       }
     }
   }
-`;
-
-export const Title = styled.h1`
-  color: #8257e5;
-  margin-top: 30px;
 `;
