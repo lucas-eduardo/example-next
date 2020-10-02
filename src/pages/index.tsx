@@ -1,4 +1,4 @@
-import { Title } from '../styles/pages/Home';
+import { Title } from '@/styles/pages/Home';
 
 export default function Home() {
   return (
